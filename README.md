@@ -1,4 +1,4 @@
-# ckawesome
+# CKAwesome
 CKAwesome is a Font Awesome plugin for CKEditor.
 It allows you to easily insert a Font Awesome icon into your text in CKEditor.
 The dialog loads the Font Awesome css file to know the avaiable icons and shows them on a select box.

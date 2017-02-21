@@ -48,7 +48,7 @@ CKEDITOR.dialog.add('ckawesomeDialog', function( editor ) {
 	function formatCKAwesome (icon) {
 	  if (!icon.id) { return icon.text; }
 	  var text = icon.text.replace(/fa-|\.|\-/gi, " ");
-	  var icon = $('<span><i class="fa ' + icon.element.value + ' fa-fw"></i> ' + text + "</span>");
+	  var icon = $('<span class="ckawesome_options"><i class="fa ' + icon.element.value + ' fa-fw"></i> ' + text + "</span>");
 	  return icon;
 	};
 	

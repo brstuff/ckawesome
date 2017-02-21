@@ -12,7 +12,7 @@ CKEDITOR.on('instanceReady',function () { CKEDITOR.document.appendStyleSheet(CKE
 CKEDITOR.scriptLoader.load(CKEDITOR.plugins.getPath('ckawesome') + 'resources/select2/select2.full.min.js');
 CKEDITOR.dtd.$removeEmpty.span = 0;
 CKEDITOR.plugins.add('ckawesome', {
-    requires: 'widget',
+    requires: 'colordialog',
     icons: 'ckawesome',
     
     init: function(editor) {

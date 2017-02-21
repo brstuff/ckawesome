@@ -23,7 +23,7 @@ CKEDITOR.dialog.add('ckawesomeDialog', function( editor ) {
 
 	        },
 	        error: function (jqXHR, exception) {
-	            alert("Error loading Fontawesome css: \n" + scriptUrl);
+	            alert("Error loading Font Awesome css: \n" + scriptUrl);
 	        },
 	     });
 	}
@@ -65,8 +65,8 @@ CKEDITOR.dialog.add('ckawesomeDialog', function( editor ) {
                     {
 					    type: 'select',
 					    id: 'ckawesomebox',
-					    label: 'Select fontawesome',
-					    validate: CKEDITOR.dialog.validate.notEmpty( "Fontawesome field cannot be empty." ),
+					    label: 'Select font Awesome',
+					    validate: CKEDITOR.dialog.validate.notEmpty( "Font Awesome field cannot be empty." ),
 					    items: [[ editor.lang.common.notSet, '' ]],
 					    onLoad: function () {
 						   	getCKAwesomeIcons(this);

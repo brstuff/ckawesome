@@ -9,7 +9,7 @@
   - `config.extraPlugins = 'ckawesome';`
 3. Add the icon to the toolbar (optional):
   - `config.toolbar = [{ name: 'CKAwesome', items: ['Image', 'ckawesome']}];`
-4. Add the path to your Font-awesome css file:
+4. Add the path to your Font-awesome css file (optional):
   - `config.fontawesomePath = 'path/to/your/fontawesome/folder/font-awesome.min.css';`
 
 # Demo

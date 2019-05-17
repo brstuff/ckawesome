@@ -3,3 +3,6 @@ div.cke_dialog_ui_input_select, .cke_dialog_ui_input_select{ width: 100%; }
 .select2-dropdown{ 	margin-left: 8px; }
 .select2-chosen{ margin-top: 7px; }
 .select2-results__option span{ color: #000; font-size: 12px !important; font-family: Arial; display:block; white-space: nowrap; overflow:hidden; }
+/* To use this extension with FA5 Free only... */
+.fa{ font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands"; }
+span.fa{ vertical-align: middle; }

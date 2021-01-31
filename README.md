@@ -13,9 +13,10 @@ The dialog loads the Font Awesome css file to know the avaiable icons and shows 
 - `config.fontawesomePath = 'path/to/your/fontawesome/folder/font-awesome.min.css';`
 
 ## Demo
-http://io.blackdevelop.com/ckawesome/
+https://io.brstuff.com/ckawesome/
 
+## Copyright
 `
-Copyright (c) 2017-2020, Blackdevelop.com - http://blackdevelop.com/io/ckawesome/
+Copyright (c) 2017-2021, https://brstuff.com/ - https://io.brstuff.com/ckawesome/
 Licence under GNU GPL v3
 `
